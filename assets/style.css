@@ -1,0 +1,91 @@
+nav {
+    text-align: right;   
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color:rgb(1, 16, 1);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar a:hover {
+    background-color:rgb(4, 37, 1);
+}
+
+.navbar li {
+    float: left;
+}
+
+.header1 {
+    background-color: rgb(4, 63, 2);
+    font-size: 75px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 200px 0 0;
+    padding: 70px 0 50px 0;
+}
+
+span {
+    font-size: 50px;
+}
+
+#logo { 
+    border-radius: 100px;
+    border: 15px solid rgb(4, 37, 1);
+    position: absolute;
+    right: 100px;
+    bottom: 680px;
+}
+
+body {
+    background-color: #fcf0d1;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white; 
+    font-size: 50px;
+    padding: 10px;
+}
+
+.message {
+    color: rgb(1, 16, 1); 
+    font-size: 35px;
+    text-align: center;
+}
+
+.form { 
+    color: black; 
+    font-size: 25px;
+    text-align: Center;
+    line-height: 1.8;
+    border: 20px solid rgba(107, 92, 43, 0.252);
+    margin: 20px 0 20px 0;
+    padding: 30px 0 20px 0;
+}  
+
+a {
+    font-size: 20px;
+    color: rgba(4, 63, 2);
+    margin-left: 745px;
+}
+
+.footer { 
+    font-family: sans-serif;
+    color: white; 
+    padding: 2px;
+    font-size: 10px;
+    text-align: Center;
+    background-color: rgb(4, 63, 2);
+}
